@@ -241,7 +241,7 @@ class EntryTableViewController: UITableViewController {
             print("Could not finish editing \(error), \(error.userInfo)")
         }
     }
-    //WARNING: duplicate function in viewcontroller
+
     //Returns date as string
     private func getString(from date: Date) -> String {
         let formatter = DateFormatter()

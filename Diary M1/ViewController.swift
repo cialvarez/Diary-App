@@ -150,14 +150,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate,
         let text = titleTextField.text ?? ""
         saveButton.isEnabled = !text.isEmpty
     }
-     //Returns date as string
-    private func getString(from date: Date) -> String {
-        let formatter = DateFormatter()
-        // Set format of date
-        formatter.dateFormat = "MM-dd-yyyy"
-        let dateString = formatter.string(from: date )
-        return dateString
-    }
+    
 
     
 
